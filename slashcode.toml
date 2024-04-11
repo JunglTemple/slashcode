@@ -1,0 +1,17 @@
+# ------------------------
+# | SLASHCODE FUNCTIONS.TOML
+# |-- This file contains all translations for slashcode functions into Ruby.
+
+[init]
+version = "dev-1"
+enableimports = false
+imports = ["slashcodeutils", "etc"]
+
+
+[translations]
+# functions.toml: something = "do $1 $2"
+# execution in SC: /something A B
+# translation into Ruby: do A B
+# each parameter/argument is marked by $1, $2, $3, and so on
+print = "puts $1"
+translate = "translator = ScTranslator.new('$1, $2'); translator.translate"
