@@ -1,3 +1,7 @@
+# ---------------
+# | SLASHCODE COMPILER
+# |-- version: dev-1
+
 require 'toml'
 
 class ScCompiler
