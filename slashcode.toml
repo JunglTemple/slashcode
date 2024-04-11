@@ -5,7 +5,7 @@
 [init]
 version = "dev-1"
 enableimports = false
-imports = ["slashcodeutils", "etc"]
+imports = ["slashcodeutils", ]
 
 
 [translations]
@@ -16,14 +16,14 @@ imports = ["slashcodeutils", "etc"]
 print = "puts $0"
 translate = "translator = ScTranslator.new('$1, $2'); translator.translate"
 
-# WARNING: Function Groups are still not functional! Do not edit this section!
-# [functiongroups]
+#! WARNING: Function Groups are still not functional! Do not edit this section!
+#// [functiongroups]
 
-#     [functiongroups.file]
-#     select = "# | WIP |-- /file/select $0"
-#     rename = "# | WIP |-- /file/rename $0"
-#     upload = "# | WIP |-- /file/upload $0"
-#     remove = "# | WIP |-- /file/remove $0"
+#//     [functiongroups.file]
+#//     select = "# | WIP |-- /file/select $0"
+#//     rename = "# | WIP |-- /file/rename $0"
+#//     upload = "# | WIP |-- /file/upload $0"
+#//     remove = "# | WIP |-- /file/remove $0"
 
 [misc]
 experimental = ["translate"]
