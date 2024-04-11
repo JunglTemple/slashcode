@@ -12,6 +12,18 @@ imports = ["slashcodeutils", "etc"]
 # functions.toml: something = "do $1 $2"
 # execution in SC: /something A B
 # translation into Ruby: do A B
-# each parameter/argument is marked by $1, $2, $3, and so on
-print = "puts $1"
+# each parameter/argument is marked by $1, $2, $3, and so on, all arguments can be selected using $0
+print = "puts $0"
 translate = "translator = ScTranslator.new('$1, $2'); translator.translate"
+
+# WARNING: Function Groups are still not functional! Do not edit this section!
+# [functiongroups]
+
+#     [functiongroups.file]
+#     select = "# | WIP |-- /file/select $0"
+#     rename = "# | WIP |-- /file/rename $0"
+#     upload = "# | WIP |-- /file/upload $0"
+#     remove = "# | WIP |-- /file/remove $0"
+
+[misc]
+experimental = ["translate"]
