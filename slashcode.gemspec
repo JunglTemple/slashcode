@@ -14,4 +14,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "thor", "~> 1.1"
+  spec.add_dependency "toml", "~> 0.2.0" 
 end
