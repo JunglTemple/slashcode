@@ -4,6 +4,11 @@
 # | SLASHCODE INSTALLER
 # |-- version: dev-2
 
+echo "---------------"
+echo "| SLASHCODE INSTALLER"
+echo "|-- versions: installer one"
+echo "|----         slashcode dev-1"
+
 # Function to check if a command is available
 command_exists() {
     command -v "$1" &> /dev/null
