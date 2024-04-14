@@ -1,3 +1,7 @@
+# ---------------
+# | SLASHCODE CLI
+# |-- version: dev-2
+
 require 'thor'
 require_relative "./compile.rb"
 

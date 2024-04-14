@@ -3,7 +3,7 @@
 # |-- This file contains all translations for slashcode functions into Ruby.
 
 [init]
-version = "dev-1"
+version = "dev-2"
 enableimports = false
 imports = ["slashcodeutils", ]
 

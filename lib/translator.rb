@@ -1,7 +1,7 @@
 # ---------------
 # | SLASHCODE UTILS
 # |--- translator class
-# |-- version: dev-1
+# |-- version: dev-2
 
 module Utils
   class ScTranslator

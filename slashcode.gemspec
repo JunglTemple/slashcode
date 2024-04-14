@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "slashcode"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["JunglTemple", "XxDreamXxXx"]
   spec.summary       = "slashcode: The language based on the slash"
   spec.homepage      = "https://github.com/JunglTemple/slashcode"
