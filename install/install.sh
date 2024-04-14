@@ -2,12 +2,13 @@
 
 # ---------------
 # | SLASHCODE INSTALLER
-# |-- version: dev-2
+# |-- version: one
 
+echo ""
 echo "---------------"
 echo "| SLASHCODE INSTALLER"
 echo "|-- versions: installer one"
-echo "|----         slashcode dev-1"
+echo "|----         slashcode dev-2"
 
 # Function to check if a command is available
 command_exists() {
@@ -20,7 +21,7 @@ if command_exists sudo && sudo -n true &> /dev/null; then
     echo "| SUDO access detected. Proceeding with system-wide installation."
     SUDO_CMD="sudo"
 else
-    echo "| No SUDO access detected. Installing gem into user's home directory."
+    echo "| No SUDO access detected. Installing gem into your home directory."
     SUDO_CMD=""
 fi
 
