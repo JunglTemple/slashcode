@@ -4,8 +4,8 @@
 
 [init]
 version = "dev-2"
-enableimports = false
-imports = ["slashcodeutils", ]
+enableimports = true
+imports = ["slashcode/Utils", ]
 
 
 [translations]

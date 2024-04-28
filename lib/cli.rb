@@ -3,7 +3,7 @@
 # |-- version: dev-2
 
 require 'thor'
-require_relative "./compile.rb"
+require "slashcode/Compiler"
 
 module SlashCLI
 	class CLI < Thor
